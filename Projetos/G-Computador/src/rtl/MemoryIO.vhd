@@ -161,7 +161,7 @@ begin
                swout;
          
 
-    LED <= outReg(9 downto 0);
+    LED(9 downto 0) <= outReg(9 downto 0);
     swout(9 downto 0) <= SW(9 downto 0);
 
 
